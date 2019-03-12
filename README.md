@@ -41,6 +41,10 @@ repository for the Kaggle competition santander-customer-transaction-prediction
 | 2019-03-08      | take exp of the features (removed original) | 0.897 |  0.89312 |
 | 2019-03-08      | take exp of the features (kept original) | null |  0.89276 |
 | 2019-03-08      | take exp of the features and added 100 cut out of the exp (removed original) | 0.896 | 0.89347 |
-| 2019-03-08      | take exp of the features and added 50 cut out of the exp (removed original) | null | 0.89299 |
+| 2019-03-08      | take exp of the features and added 50 cut out of the exp (removed original) | 0.896 | 0.89299 |
 | 2019-03-08      | take exp of the features and added 150 cut out of the exp (removed original) | null | 0.89295 |
+| 2019-03-12      | rank with 2 decimals (removed original cols) | 0.896 | 0.89303 |
+| 2019-03-12      | original plus qcut of 2 | null | 0.89305 |
+| 2019-03-12      | kmeans minibatch with k =20 | null | 0.89244 |
+| 2019-03-12      | kmeans minibatch with k =20, cluster is categorical feature in lgb | null | 0.89231 |
 
