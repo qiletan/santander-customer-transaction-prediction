@@ -47,4 +47,13 @@ repository for the Kaggle competition santander-customer-transaction-prediction
 | 2019-03-12      | original plus qcut of 2 | null | 0.89305 |
 | 2019-03-12      | kmeans minibatch with k =20 | null | 0.89244 |
 | 2019-03-12      | kmeans minibatch with k =20, cluster is categorical feature in lgb | null | 0.89231 |
+| 2019-03-21      | random shuffle and upsample once for pos | 0.897 | 0.89381 |
+| 2019-03-21      | random shuffle and upsample twice for pos | null | 0.89403 |
+| 2019-03-21      | random shuffle and upsample 3 times for pos | null | 0.89417 |
+| 2019-03-21      | random shuffle and upsample 9 times for pos | null | 0.8930 |
+| 2019-03-21      | random shuffle and upsample 4 times for pos | null | 0.89332 |
+| 2019-03-21      | take exp and augment for 3 times | null | 0.8936 |
+| 2019-03-21      | take exp and augment for 3 times (changed num_leave to 5) | null | 0.89729 |
+| 2019-03-21      | take exp and augment for 0 times (changed num_leave to 5) | null | 0.8934 |
+| 2019-03-21      | augment for 3 times (fixed error in the augment function) | 0.899 | 0.89659 |
 
