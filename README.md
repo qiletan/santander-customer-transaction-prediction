@@ -56,4 +56,8 @@ repository for the Kaggle competition santander-customer-transaction-prediction
 | 2019-03-21      | take exp and augment for 3 times (changed num_leave to 5) | null | 0.89729 |
 | 2019-03-21      | take exp and augment for 0 times (changed num_leave to 5) | null | 0.8934 |
 | 2019-03-21      | augment for 3 times (fixed error in the augment function) | 0.899 | 0.89659 |
+| 2019-03-21      | augment for 9 times (fixed error in the augment function) | null | 0.89772 |
+| 2019-03-21      | augment for 12 times (fixed error in the augment function) | null | 0.89825 |
+| 2019-03-21      | augment for 5 times (fixed error in the augment function) | null | 0.89755 |
+| 2019-03-21      | exp + augment for 5 times (fixed error in the augment function) | null | 0.89724 |
 
