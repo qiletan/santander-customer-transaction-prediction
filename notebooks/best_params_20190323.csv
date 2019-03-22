@@ -1,0 +1,2 @@
+,colsample_bytree,learning_rate,max_bin,max_depth,min_child_samples,min_child_weight,n_estimators,num_leaves,reg_alpha,reg_lambda,scale_pos_weight,subsample,subsample_for_bin,subsample_freq
+0,0.3706219857878677,0.16624226726409647,93400,134,22,4,24176,27,1.081049236893711e-05,1.043686239159047,0.19222548462579486,0.6941640075502717,375140,7
