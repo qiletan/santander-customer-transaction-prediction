@@ -1,7 +1,8 @@
 # santander-customer-transaction-prediction
 repository for the Kaggle competition santander-customer-transaction-prediction
 
-
+## Final results:
+My final ranking is 130th (2%). What I learnt from this competition is how NN can use to improve performance. According to the 2nd team's solution, they created 200 new features based on the original 200 features. To let the nn learn about the potential interactions between each (original, new feature) pair, they changed the input shape to (200,2). This is brilliant. What it does is treating each pair as of two colors in a pixel. So the model knows they belong to each other.
 
 
 ## Things known so far:
